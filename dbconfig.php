@@ -1,6 +1,6 @@
 <?php
 $servername = "localhost";
-$database = "touri";
+$database = "Touri";
 $username = "root";
 $password = "LGG8z4kRUS4ZRy";
 // Create connection
