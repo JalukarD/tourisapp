@@ -69,7 +69,7 @@
 							<section id="two" class="spotlights">
 								<section>
 									<a href="landingamerica.php" class="image">
-										<img src="images/pic08.jpg" alt="" data-position="center center" />
+										<img src="images/111111.jpg" alt="" data-position="center center" />
 									</a>
 									<div class="content">
 										<div class="inner">
@@ -85,7 +85,7 @@
 								</section>
 								<section>
 									<a href="generic.php" class="image">
-										<img src="images/pic09.jpg" alt="" data-position="top center" />
+										<img src="images/111111.jpg" alt="" data-position="top center" />
 									</a>
 									<div class="content">
 										<div class="inner">
@@ -101,7 +101,7 @@
 								</section>
 								<section>
 									<a href="generic.php" class="image">
-										<img src="images/pic10.jpg" alt="" data-position="25% 25%" />
+										<img src="images/111111.jpg" alt="" data-position="25% 25%" />
 									</a>
 									<div class="content">
 										<div class="inner">
