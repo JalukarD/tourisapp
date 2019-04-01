@@ -13,7 +13,7 @@ if(isset($_GET['confirm_location'])) {
 
 
 function get_confirmed_locations(){
-    $con=mysqli_connect ("localhost", 'root', '','tourisapp');
+    $con=mysqli_connect ("localhost", 'root', 'DW1zjcJ8jvzSJW','tourisapp');
     if (!$con) {
         die('Not connected : ' . mysqli_connect_error());
     }
