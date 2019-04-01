@@ -91,14 +91,14 @@ $boxer2 = mysqli_query($conn, "SELECT id_ciudad, nombre_ciudad, desc_ciudad, fot
 											</header>
 											<p><?php echo $row['desc_lugar']; ?></p>
 											<ul class="actions">
-											<input type="hidden" name="variable3" value=<?php echo $row['id_lugar']; ?> />
-											<li><input type="submit"  value="Llevame allí"></li>
+											<li><button name="variable3" value=<?php echo $row['id_lugar']; ?> type="submit">Llevame Alli</button></li>
 											</ul>
-										</div>
+											</div>
 									</div>
-									</form>
-								</section>
-								<?php }; ?>  
+									</section>
+							<?php }; ?>
+							</section>  
+							</form>
 						
 
 					</div>

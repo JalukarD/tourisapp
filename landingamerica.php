@@ -80,14 +80,15 @@ $boxer = mysqli_query($conn, "SELECT id_pais, nombre_pais, desc_pais, foto_pais 
 											</header>
 											<p><?php echo $row['desc_pais']; ?></p>
 											<ul class="actions">
-											<input type="hidden" name="variable1" value=<?php echo $row['id_pais']; ?> />
-												<li><input type="submit"  value="Llevame allí"></li>
+												<li><button name="variable1"value=<?php echo $row['id_pais']; ?> type="submit">Llevame Alli</button></li>
 											</ul>
 										</div>
 									</div>
-							</form>
+						
 								</section>
-							<?php }; ?>  
+							<?php }; ?>
+							</section>  
+							</form>
 
 						
 

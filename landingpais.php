@@ -2,8 +2,8 @@
 $v1 = $_POST['variable1'];
 require_once 'dbconfig.php';
 // Get boxers form the database
-$boxer = mysqli_query($conn, "SELECT id_ciudad, nombre_ciudad, desc_ciudad, foto_ciudad FROM ciudad WHERE ciudad.id_pais=$v1 ORDER BY nombre_ciudad DESC");
-$boxer2 = mysqli_query($conn, "SELECT id_pais, nombre_pais, desc_pais, foto_pais FROM pais WHERE id_pais=$v1 ORDER BY nombre_pais DESC");
+$boxer = mysqli_query($conn, "SELECT id_ciudad, nombre_ciudad, desc_ciudad, foto_ciudad FROM ciudad WHERE ciudad.id_pais=$v1 ORDER BY nombre_ciudad ASC");
+$boxer2 = mysqli_query($conn, "SELECT id_pais, nombre_pais, desc_pais, foto_pais FROM pais WHERE id_pais=$v1 ORDER BY nombre_pais ASC");
 ?>
 <!DOCTYPE HTML>
 <!--
@@ -91,14 +91,14 @@ $boxer2 = mysqli_query($conn, "SELECT id_pais, nombre_pais, desc_pais, foto_pais
 											</header>
 											<p><?php echo $row['desc_ciudad']; ?></p>
 											<ul class="actions">
-											<input type="hidden" name="variable2" value=<?php echo $row['id_ciudad']; ?> />
-											<li><input type="submit"  value="Llevame allí"></li>
+												<li><button name="variable2" value=<?php echo $row['id_ciudad']; ?> type="submit">Llevame Alli</button></li>
 											</ul>
 										</div>
 									</div>
-									</form>
-								</section>
-								<?php }; ?>  
+									</section>
+							<?php }; ?>
+							</section>  
+							</form>
 						
 
 					</div>

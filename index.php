@@ -83,7 +83,7 @@
 										<img src="images/pic03.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="landing.php" class="link">GPS</a></h3>
+										<h3><a href="user-map.php" class="link">GPS</a></h3>
 										<p>Planea tu recorrido en un solo lugar/p>
 									</header>
 								</article>

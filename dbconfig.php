@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$database = "Touri";
+$database = "Tourisapp";
 $username = "root";
-$password = "LGG8z4kRUS4ZRy";
+$password = "";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);
 
